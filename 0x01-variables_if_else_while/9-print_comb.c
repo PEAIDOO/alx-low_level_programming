@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		putchar(1 + '0');
+		putchar(i + '0');
 		if (i != 9)
 		{
 		putchar(',');
@@ -22,4 +22,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-		
